@@ -1,6 +1,5 @@
 import sys
 import os
-import pytest
 from fastapi.testclient import TestClient
 
 # Add the `src` directory to the Python path
