@@ -10,7 +10,7 @@ pytest || { echo "Pytest tests failed"; exit 1; }
 cd ..
 
 # Navigate to unittest directory and run tests
-cd unittest
+cd unit_test
 echo "Running unittest tests..."
 python -m unittest discover || { echo "Unittest tests failed"; exit 1; }
 cd ..
