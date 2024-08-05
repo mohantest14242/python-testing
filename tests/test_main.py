@@ -2,6 +2,7 @@ import os
 import sys
 from fastapi.testclient import TestClient
 import pandas
+import matplotlib
 
 # Adjust the import path to include the actions/src directory
 sys.path.insert(0, os.path.abspath(os.path.join(
