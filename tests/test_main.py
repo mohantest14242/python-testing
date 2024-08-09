@@ -13,4 +13,4 @@ client = TestClient(app)
 def test_get_name():
     response = client.get("/name")
     assert response.status_code == 200
-    assert response.json() == "this is my name the mohan who are you"
+    assert response.json() == "this is my name the mohan who are you yo fucker"
